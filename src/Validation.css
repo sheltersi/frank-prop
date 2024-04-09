@@ -1,0 +1,34 @@
+.validate-btn {
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background:#8f4068; /*rgb(145, 92, 182);*/
+    padding: 15px 40px;
+    border:none;
+    border-radius: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .validate-btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 25px rgba(145, 102, 182, .4);
+  }
+  
+  .numbers-txt{
+    margin-top: 40px;
+    width: 590px;
+    height:300px
+  }
+  
+ .acctxt{
+    margin-left: -70px;
+    margin-top:20px;
+ }
+
+ .actxt{
+    width: 270px;
+    height:30px;
+    border-radius: 10px;
+ }
