@@ -85,14 +85,29 @@ const ValidationComponent = () => {
           'Validate Numbers'
         )}
       </button>
-      <br />
+      {/* <br />
       <ul>
         {validationResults.map((result, index) => (
           <li key={index}>
             {result.number}: {result.isValid ? 'Valid' : 'Invalid'}
           </li>
         ))}
-      </ul>
+      </ul> */}
+       <br />
+        {/* {validationResults.map((result, index) => (
+          <p key={index}>
+            {result.number} {result.isValid ? 'valid' : 'invalid'}
+          </p>
+        ))} */}
+     {validationResults.map((result, index) => (
+  // Check if the result is valid before rendering
+  result.isValid && (
+    <p key={index}>
+      {result.number}
+    </p>
+  )
+))}
+
     </div>
   );
 };
